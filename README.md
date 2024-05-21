@@ -26,8 +26,7 @@ Curious about my work beyond the blog? Check out my portfolio for a comprehensiv
 Join our community of writers and readers today, and start sharing your voice with the world!
 
 
-![image](https://github.com/DRX-88/Personal-Blog/assets/162182740/87e831e8-c7b9-433a-b874-5318a84eee0b)
-
+![image](https://github.com/DRX-88/Personal-Blog/assets/162182740/14b94baf-1736-4c1c-b5b3-e9b424637fd6)
 ![image](https://github.com/DRX-88/Personal-Blog/assets/162182740/e79ae8eb-a0bf-4ccd-bfaa-13a3c8ff3e4a)
 
 
