@@ -1,4 +1,4 @@
-// This sets the color mode button icon based on the current color mode
+// This sets the colour mode button icon based on the current color mode
 function setColorModeButton() {
     const currentColorMode = document.body.getAttribute("data-bs-theme");
     const colormodeButtonIcon = document.getElementById("color-mode-icon");
@@ -13,7 +13,7 @@ function setColorModeButton() {
 
     }
 }
-
+// set the colour of background and text based on the current color mode
 function switchColorMode() {
     const currentColorMode = document.body.getAttribute("data-bs-theme");
 

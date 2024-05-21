@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    box-shadow: black 0px 2px 5px;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 10px;
+}
+
+#image {
+    width: 100%;
+    grid-column-start: 1;
+    
+}
+
+img {
+    width: 600px;
+    height: 600px;
+    display: block;
+    margin: auto;
+    padding: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+#form {
+    margin: auto;
+    padding-right: 20%;
+    width: 100%;
+    grid-column-start: 2;
+}
+
+footer {
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+    box-shadow: black 0px -0.5px 5px;
+}

@@ -2,15 +2,17 @@ const submitBtn = document.getElementById('submit-btn');
 const usernameEl = document.getElementById('username');
 const titleEl = document.getElementById('title');
 const descriptionEl = document.getElementById('description');
+const form = document.querySelector('form');
 
-submitBtn.addEventListener('submit', function (event) {
+submitBtn.addEventListener('click', function (event) {
     event.preventDefault();
+
 
     let blogPosts = JSON.parse(localStorage.getItem('blogPosts')) || [];
 
-    const username = usernameEl.value;
-    const title = titleEl.value;
-    const description = descriptionEl.value;
+    const username = usernameEl.value.trim();
+    const title = titleEl.value.trim();
+    const description = descriptionEl.value.trim();
 
     if (username.trim() === '' || title.trim() === '' || description.trim() === '') {
         alert('Please fill in all fields');
@@ -28,6 +30,11 @@ submitBtn.addEventListener('submit', function (event) {
 
     location.href = 'blog.html';
 
-    console.log(newBlogPost);
+    console.log(blogPosts);
 
+    form.reset();
 });
+
+
+
+
